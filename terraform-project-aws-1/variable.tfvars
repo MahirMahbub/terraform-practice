@@ -1,0 +1,11 @@
+subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
+vpvpc_cidr = "10.0.0.0/16"
+public_cidr = "0.0.0.0/0"
+http_ingress_from_port = 80
+http_ingress_to_port = 80
+ssh_ingress_from_port = 22
+ssh_ingress_from_port = 22
+http_ingress_protocol = "tcp"
+ssh_ingress_protocol = "tcp"
+ni_private_ips = ["10.0.1.50", "10.0.1.51"]
